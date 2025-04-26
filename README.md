@@ -1,1 +1,1 @@
-# warehouse_system_ISklad
+# Система складского учёта АйСклад
