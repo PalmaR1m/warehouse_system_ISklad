@@ -1,0 +1,43 @@
+# Doxyfile 1.9.2
+
+# Основные параметры
+PROJECT_NAME           = "Имя вашего проекта"
+PROJECT_BRIEF          = "Краткое описание вашего проекта"
+PROJECT_LOGO           = "путь/к/логотипу.png"
+
+# Укажите, хотите ли вы генерировать документацию в формате HTML
+GENERATE_HTML          = YES
+
+# Укажите, хотите ли вы генерировать документацию в формате LaTeX
+GENERATE_LATEX         = NO
+
+# Укажите, хотите ли вы включать диаграммы классов
+HAVE_DOT               = YES
+DOT_GRAPH_MAX_NODES    = 50
+GENERATE_UML           = YES
+
+# Параметры для генерации графов вызовов
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# Укажите путь к исходным файлам
+INPUT                  = src/
+
+# Укажите, какие файлы следует игнорировать
+EXCLUDE                = 
+
+# Укажите, какие файлы следует обрабатывать
+FILE_PATTERNS          = *.cpp *.h
+
+# Включение дополнительной информации для классов
+GENERATE_TREEVIEW      = YES
+
+# Включение подробного описания классов и методов
+EXTRACT_ALL            = YES
+
+# Настройка пути к графическим инструментам (например, Graphviz)
+DOT_PATH               = /usr/bin/dot
+
+# Дополнительные настройки
+HTML_HEADER            = "header.html"
+HTML_FOOTER            = "footer.html"
